@@ -1,0 +1,70 @@
+// Rafiq's VS Code PHP Snippets
+{
+	"pub": {
+		"prefix": "pub",
+		"body": [
+			"public function $1($2)",
+			"{",
+			"\t$3",
+			"}"
+		],
+		"description": "Public Function"
+	},
+	"pri": {
+		"prefix": "pri",
+		"body": [
+			"private function $1($2)",
+			"{",
+			"\t$3",
+			"}"
+		],
+		"description": "Private Function"
+	},
+	"test_case": {
+		"prefix": "test",
+		"body": [
+			"/** @test */",
+			"function $1()",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "Test case"
+	},
+	"unit": {
+		"prefix": "unit",
+		"body": [
+			"",
+			"namespace Tests\\Unit;",
+			"",
+			"use Tests\\TestCase;",
+			"use Illuminate\\Foundation\\Testing\\RefreshDatabase;",
+			"use Illuminate\\Foundation\\Testing\\DatabaseMigrations;",
+			"",
+			"class $TM_FILENAME_BASE extends TestCase",
+			"{",
+			"\t$1",
+			"}",
+			""
+		],
+		"description": "Unit test template"
+	},
+	"feature": {
+		"prefix": "feature",
+		"body": [
+			"",
+			"namespace Tests\\Feature;",
+			"",
+			"use Tests\\TestCase;",
+			"use Illuminate\\Foundation\\Testing\\RefreshDatabase;",
+			"use Illuminate\\Foundation\\Testing\\DatabaseMigrations;",
+			"",
+			"class $TM_FILENAME_BASE extends TestCase",
+			"{",
+			"\t$1",
+			"}",
+			""
+		],
+		"description": "Feature test template"
+	}
+}
