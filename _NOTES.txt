@@ -22,11 +22,11 @@ Command+T - Go to symbol in workspace
 Command+P+:{number} - Go to Line Number
 Option+Up/Down - Move line up/down
 Command+Space - Show suggestions
-My custom keybindings are in Booj/v2-docs-and-snippets
+My custom keybindings are in keybindings.json
 
 Key Features:
 User/Workspace Settings
-* My settings.json is in Booj/v2-docs-and-snippets
+* My settings are in settings.json
 Multiple Cursors
 * Alt+Click to add a cursor
 * Command+Option+Up/Down to add a cursor above/below
@@ -35,7 +35,7 @@ Multiple Cursors
 Dynamic Snippets
 * Language-specific
 * You can use the snipper-creator extension to capture code into a snippet template
-* My snippets.json is in Booj/v2-docs-and-snippets
+* My snippets are in the snippets directory
 Terminal
 PHPUnit run current test
 MiniMap
