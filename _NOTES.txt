@@ -1,0 +1,76 @@
+Good Themes:
+Slime
+Laravel
+
+Important Shortcuts:
+Command+P - File Browser
+Command+Shift+P - Command Palette
+Command+B - Toggle Sidebar
+Command+Shift+E - Explorer
+Command+Shift+F - Search
+Command+Shift+D - Debug
+Command+Shift+X - Extensions
+Ctrl+Shift+G - Source Control
+Command+\ - Add a vertical pane
+Command+{number} - Go to editor pane
+Ctrl+` - Terminal
+Command+Backspace - Delete File
+Command+Option+N - Advanced New File
+Control+J - Join selected into one line
+Command+Shift+O - Go to symbol in file
+Command+T - Go to symbol in workspace
+Command+P+:{number} - Go to Line Number
+Option+Up/Down - Move line up/down
+Command+Space - Show suggestions
+My custom keybindings are in Booj/v2-docs-and-snippets
+
+Key Features:
+User/Workspace Settings
+* My settings.json is in Booj/v2-docs-and-snippets
+Multiple Cursors
+* Alt+Click to add a cursor
+* Command+Option+Up/Down to add a cursor above/below
+* Command+D to add a cursor highlight on the next occurrence of selection
+* Command+Shift+L to highlight every match
+Dynamic Snippets
+* Language-specific
+* You can use the snipper-creator extension to capture code into a snippet template
+* My snippets.json is in Booj/v2-docs-and-snippets
+Terminal
+PHPUnit run current test
+MiniMap
+Auto Import Class
+Fix File
+* Auto-apply PSR2 and other rules to your code
+Tasks
+* Use to run common stuff like npm watch/build
+* You can create custom tasks
+XDebug integration
+
+Extensions:
+My extension list is in Booj/v2-docs-and-snippets
+
+Optional Extensions:
+Sublime Text Keymap
+Vim Keybindings
+
+Misc Notes:
+Try messing around in the interactive playground (access from command palette)
+Most settings can be toggled in command palette and that will auto-update your settings.json
+You can search by keybinding in Keyboard Shortcuts to see if a shortcut is already taken
+"Go to symbol in file/workspace" is useful
+Install "code" shortcut in path to access vscode from terminal
+Snippet variables are really cool
+I don't really use git integation except to note the current branch & changed files
+Terminal windows can run in background (e.g. npm run watch)
+php cs fixer has a TON of custom rules available, we could potentially write Booj-specific rules, create a custom .php_cs file for your own rule sets.
+The .vscode directory can contain project-specific settings, and stuff in settings.json will override user settings
+Using Better PHPUnit with XDebug throws reflection errors :( But it still works (uncheck breakpoints as a workaround)
+Emmet is pretty cool for scaffolding html structures quickly
+ESLint is super powerful for auditing your javascript
+You can use find/replace in regex mode by clicking the ".*" button
+
+Sources:
+VSCode Docs
+Laracasts
+Stack Overflow
