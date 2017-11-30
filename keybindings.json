@@ -1,0 +1,29 @@
+// Rafiq's VS Code Keybindings
+[
+    {
+        "key": "alt+p",
+        "command": "editor.action.insertSnippet"
+    },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.showContextMenu",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+enter",
+        "command": "-editor.action.selectAllMatches",
+        "when": "editorFocus && findWidgetVisible"
+    },
+    {
+        "key": "alt+cmd+i",
+        "command": "php-cs-fixer.fix"
+    },
+    {
+        "key": "alt+cmd+t",
+        "command": "workbench.action.tasks.runTask"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "-workbench.action.reopenClosedEditor"
+    }
+]
