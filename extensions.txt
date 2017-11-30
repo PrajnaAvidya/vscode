@@ -1,0 +1,13 @@
+bmewburn.vscode-intelephense-client-0.8.2
+calebporzio.better-phpunit-0.3.5
+dbaeumer.vscode-eslint-1.4.3
+felixfbecker.php-debug-1.12.1
+junstyle.php-cs-fixer-0.1.49
+nikitaKunevich.snippet-creator-0.0.4
+octref.vetur-0.11.3
+patbenatar.advanced-new-file-0.5.1
+rafa-acioly.laravel-helpers-0.2.2
+ryannaddy.laravel-artisan-0.0.10
+sleistner.vscode-fileutils-2.7.1
+smlombardi.slime-2.26.0
+wix.vscode-import-cost-2.5.1
