@@ -48,7 +48,7 @@ Tasks
 XDebug integration
 
 Extensions:
-My extension list is in Booj/v2-docs-and-snippets
+My extension list (for php/js/laravel/vue dev) is in extensions.txt
 
 Optional Extensions:
 Sublime Text Keymap
